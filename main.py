@@ -38,7 +38,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
 def onClickAI():
     print("Clicked")
-    print(get_ai_response("Give this sentence a score A to F looking for any mistakes: 'How doot you do?'"))
+    print(get_ai_response("'How doot you do?'"))
 
 app = QtWidgets.QApplication(sys.argv)
 
